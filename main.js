@@ -28,7 +28,7 @@
 //function for text area not more than 250 char
  $(document).ready(function() {
   var len = 0;
-  var maxchar = 200;
+  var maxchar = 250;
 
   $( '#my-input' ).keyup(function(){
     len = this.value.length
